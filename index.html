@@ -2,13 +2,101 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="Katя Zubko">
     <title>HTML Academy: pink</title>
     <!-- <link rel="stylesheet" href="css/style.css"> -->
   </head>
   <body>
+	<!-- Header -->
+	<header>
+		<a href="index.html">Pink</a>
+		<button class="menu" title="Меню">Меню</button>
+		<button class="close" title="Закрыть">Закрыть</button>
+		<nav class="main-menu" role="navigation">
+			<ul>
+				<li><a href="index.html">Информация</a></li>
+				<li><a href="blog.html">Блог</a></li>
+				<li><a href="post.html">Отзывы</a></li>
+				<li><a href="form.html">Конкурсы</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<!-- Main -->
+	<main>
+		<!-- Intro -->
+		<div class="intro">
+			<h2>Взгляните на жизнь иначе!</h2>
+			<a href="" class="download">Скачать приложение</a>
+		</div>
+		
+		<div class="oslogo">
+			<a href="">Apple</a>
+			<a href="">Android</a>
+			<a href="">Microsoft</a>
+			<p>Доступно для iPhone, iPad, Android, Windows Phobe, OS X, Windows 8</p>
+		</div>
+		
+		<!-- Information -->
+		<div class="information">
+			<h2>Устали от серости мегаполиса?</h2>
+			<h2>Нам есть, что вам предложить!</h2>
+			<h3>Поднимает настроение</h3>
+				<p>Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+			<h3>Меняет мир вокруг</h3>
+				<p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+			<h3>Заводит новых друзей</h3>
+				<p>Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+		</div>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн-курсе «<a href="https://htmlacademy.ru/advanced_intensive">Продвинутый HTML и CSS</a>».</p>
+		<!-- Review -->
+		<div class="review">
+			<h3>Николай Петров</h3>
+			<p>"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А ещё я познакомился со своей будущей женой в комментариях к выложенной фотографии!"</p>
+			<div class="paging">
+				<ul>
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- Price -->
+		<div class="price">
+			<div class="price-title">
+				<p>Стандарт</p>
+				<h2>3,99 USD</h2>
+			</div>
+			<form action="#" class="price-filter" method="get">
+				<label for=""><input type="checkbox" name="feature" value="Розовый фильтр" checked><span>Розовый фильтр</span></input></label>
+				<label for=""><input type="checkbox" name="feature" value="Смайлики" checked><span>Смайлики</span></input></label>
+				<label for=""><input type="checkbox" name="feature" value="Комментарии"><span>Комментарии</span></input></label>
+			</form>
+			<div class="paging">
+				<ul>
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
 
+		<!-- Contacts -->
+		<div class="contacts">
+			<h2>Остались вопросы? Свяжитесь с нами!</h2>
+			<h3>Звоните:</h3>
+				<p>+7 (812) 555-66-66</p>
+			<h3>Пишите:</h3>
+				<p>mail@htmlacademy.ru</p>
+			<h3>Приезжайте в гости:</h3>
+				<p>ул. Большая Конюшенная, 19/8</p>
+			<img src="#" width="320" height="200" alt="Карта проезда">
+		</div>
+	</main>
+	
     <!-- <script src="js/script.js"></script> -->
 
   </body>
